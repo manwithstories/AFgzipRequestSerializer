@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.source_files = 'AFgzipRequestSerializer'
   s.requires_arc = true
 
-  s.dependency 'AFNetworking', '~> 2.0'
-  s.dependency 'Godzippa', '~> 1.0'
+  s.dependency 'AFNetworking'
+  s.dependency 'Godzippa'
 end
